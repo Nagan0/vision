@@ -1,0 +1,6 @@
+load(descriptive);
+a:read_matrix("data_odd.txt");
+b:read_matrix("data_even.txt");
+v:cov(a);
+w:cov(b);
+g:(v+w)^^-1;

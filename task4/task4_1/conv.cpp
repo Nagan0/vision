@@ -7,8 +7,8 @@ int main(int argc, const char* argv[])
 
   double kernel[3][3] = {
     {-1, -1, -1},
-    {-1, 8, -1},
-    {-1, -1, -1}
+    {0, 0, 0},
+    {1, 1, 1}
   };
 
   double d, gain, offset;
