@@ -15,4 +15,5 @@ a6:2;
 A:[a1,a2,a3,a4,a5,a6];
 
 plot2d(A.K,[x,0,7]);
+
 import -window "Gnuplot (window id:0)" task5_3.jpg
